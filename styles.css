@@ -62,3 +62,9 @@ footer {
   padding-bottom: 5vh;
   font-size: x-large;
 }
+
+#output {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 2%;
+}
