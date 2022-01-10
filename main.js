@@ -99,7 +99,7 @@ const getNextDate = date => {
     year++;
   }
 
-  return {day: day, month: month, year: year};
+  return {day, month, year};
 }
 
 const getNextPalindromeDate = date => {
@@ -141,7 +141,7 @@ const submitHandler = () => {
 
     for (let i = 0; i < list.length; i++) {
       if (list[i]) {
-        isPalindrom;
+        isPalindrom = true;
         break;
       }
     }
